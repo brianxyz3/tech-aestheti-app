@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     return (
-        <nav className="bg-indigo-300 text-white p-6">
+        <nav className="p-6">
             <div className="flex justify-between">
                 <div>
                     TechAestheti
@@ -15,7 +15,8 @@ const Navbar = () => {
                         <li>Contact</li>
                     </ul>
                 </div>
-                <button className="bg-indigo-800 px-2">Reach Out</button>
+                <div className="bg-heroImg bg-cover w-80 h-72 absolute top-0 -right-36 border-2 border-t-0 border-indigo-300 rounded-b-full"></div>
+                <button className="bg-indigo-800 px-3 font-bold relative">Reach Out</button>
             </div>
         </nav>
     )

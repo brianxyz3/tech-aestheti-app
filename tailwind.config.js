@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
       },
+      backgroundImage: {
+        heroImg: "url('./src/assets/images/navbar-laptop-img.jfif')",
+      },
     },
   },
   plugins: [],
