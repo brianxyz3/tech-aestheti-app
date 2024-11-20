@@ -15,7 +15,7 @@ const Navbar = () => {
                         <li>Contact</li>
                     </ul>
                 </div>
-                <div className="bg-heroImg bg-cover w-80 h-72 absolute top-0 -right-36 border-2 border-t-0 border-indigo-300 rounded-b-full"></div>
+                <div className="bg-heroImg bg-cover w-80 h-72 absolute top-0 -right-36 border-2 border-t-0 border-indigo-100 rounded-b-full"></div>
                 <button className="bg-indigo-800 px-3 font-bold relative">Reach Out</button>
             </div>
         </nav>
