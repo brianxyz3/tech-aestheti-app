@@ -29,9 +29,9 @@ const Banner = () => {
                         <p className="w-52">Over <span className="text-2xl font-bold text-indigo-900 underline">80k</span> Softwares Developed</p>
                     </div>
                 </div>
-                <div>
-                    <img src="../src/assets/images/banner-img1.jfif" className="absolute size-72" alt="" />
-                    <img src="../src/assets/images/banner-img2.jfif" className="relative size-72" alt="" />
+                <div className="relative">
+                    <img src="../src/assets/images/banner-img3.jfif" className="border-2 border-indigo-200 absolute top-6 right-6 size-72" alt="" />
+                    <img src="../src/assets/images/banner-img1.jfif" className="border-2 border-indigo-200 size-72" alt="" />
                 </div>
             </div>
         </section>

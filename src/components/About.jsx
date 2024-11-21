@@ -80,7 +80,7 @@ const About = () => {
                         <p><CheckIcon className="text-indigo-800" /> Innovative Technology</p>
                         <p><CheckIcon className="text-indigo-800" /> Innovative Technology</p>
                     </div>
-                    <button className="bg-indigo-800 text-white px-4 py-1 mt-4">Email Us</button>
+                    <button className="bg-indigo-800 text-white px-10 py-1 mt-4">Email Us</button>
                 </div>
             </div>
         </section>

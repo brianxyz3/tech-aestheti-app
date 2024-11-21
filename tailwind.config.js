@@ -8,6 +8,7 @@ export default {
       },
       backgroundImage: {
         heroImg: "url('./src/assets/images/navbar-laptop-img.jfif')",
+        testimonialImg: "url('./src/assets/images/testimonial-img.jfif')",
       },
     },
   },
