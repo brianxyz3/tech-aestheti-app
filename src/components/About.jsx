@@ -10,7 +10,7 @@ const About = () => {
                     <h5 className="text-lg font-bold">Why Choose Us ?</h5>
                 </div>
             </div>
-            <p className="inline font-bold p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2">More About Us</p>
+            <a href="" className="inline font-bold p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2">More About Us</a>
             <div className="my-5 flex gap-3 justify-evenly flex-wrap lg:justify-between lg:flex-nowrap">
                 <div className="bg-white/50 flex flex-col justify-between w-72 px-4 py-6 border rounded-md border-gray-400">
                     <div>
@@ -21,7 +21,7 @@ const About = () => {
                         <p className="text-gray-900 py-8">We began by understanding your unique business needs and goals. Our team conducts in-depth research and develops a tailored strategy to achieve measurable results.</p>
                     </div>
                     <div>
-                        <p className="inline p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2">Learn More</p>
+                        <a href="" className="inline p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2">Learn More</a>
                     </div>
                 </div>
 
@@ -34,7 +34,7 @@ const About = () => {
                         <p className="text-gray-900 py-8">Our designers and developers work together to create innovative and user-friendly solutions we focus on seamless functionality and design to elevate your brand's presence.</p>
                     </div>
                     <div>
-                        <p className="inline p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2">Learn More</p>
+                        <a href="" className="inline p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2">Learn More</a>
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ const About = () => {
                         <p className="text-gray-900 py-8">Once live. We monitor performance and continuously optimize your project. Our ongoing support ensures sustained growth and adaptability to changing market trends.</p>
                     </div>
                     <div>
-                        <p className="inline p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2">Learn More</p>
+                        <a href="" className="inline p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2">Learn More</a>
                     </div>
                 </div>
 
@@ -60,7 +60,7 @@ const About = () => {
                         <p className="text-gray-900 py-8">We began by understanding your unique business needs and goals. Our team conducts in-depth research and develops a tailored strategy to achieve measurable results.</p>
                     </div>
                     <div>
-                        <p className="inline p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2">Learn More</p>
+                        <a href="" className="inline p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@ const About = () => {
                         <p><CheckIcon className="text-indigo-800" /> Innovative Technology</p>
                         <p><CheckIcon className="text-indigo-800" /> Innovative Technology</p>
                     </div>
-                    <button className="bg-indigo-800 text-white px-10 py-1 mt-4">Email Us</button>
+                    <a href="mailto:brianchima22@gmail.com" className="bg-indigo-800 text-white px-10 py-1 mt-4 hover:px-11 hover:py-2 hover:rounded-lg">Email Us</a>
                 </div>
             </div>
         </section>
