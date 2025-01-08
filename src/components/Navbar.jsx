@@ -12,7 +12,7 @@ const Navbar = () => {
                         <a href="" className="hover:bg-indigo-500 hover:font-bold hover:rounded-xl p-2">Home</a>
                         <a href="" className="hover:bg-indigo-500 hover:font-bold hover:rounded-xl p-2">About Us</a>
                         <a href="" className="hover:bg-indigo-500 hover:font-bold hover:rounded-xl p-2">Services</a>
-                        <a href="" className="hover:bg-indigo-500 hover:font-bold hover:rounded-xl p-2">Portfoao</a>
+                        <a href="" className="hover:bg-indigo-500 hover:font-bold hover:rounded-xl p-2">Portfolio</a>
                         <a href="" className="hover:bg-indigo-500 hover:font-bold hover:rounded-xl p-2">Contact</a>
                     </div>
                 </div>
