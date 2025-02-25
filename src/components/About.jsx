@@ -3,7 +3,7 @@ import CheckIcon from '@mui/icons-material/Check';
 const About = () => {
     return (
         <section className="bg-gradient-to-t from-white to-indigo-100 text-indigo-800 p-6">
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center flex-wrap gap-y-6">
                 <p className="w-[33rem]">Discover what sets TechAesthetix apart from the competition. Our unique approach and commitment to excellence ensure that your business achieves its digital goals.</p>
                 <div>
                     <p>About Us</p>
@@ -60,15 +60,15 @@ const About = () => {
                         <p className="text-gray-900 py-8">We began by understanding your unique business needs and goals. Our team conducts in-depth research and develops a tailored strategy to achieve measurable results.</p>
                     </div>
                     <div>
-                        <a href="" className="inline p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2">Learn More</a>
+                        <a href="" className="inline p-0 border-b border-b-indigo-900 hover:p-1 hover:border-b-2 duration-100">Learn More</a>
                     </div>
                 </div>
             </div>
-            <div className="flex flex-wrap justify-between pt-8">
-                <div className="w-5/12 h-72 bg-[#a8bcf2fe] relative">
+            <div className="flex flex-wrap justify-between pt-8 gap-y-10">
+                <div className="w-full md:w-5/12 h-72 bg-[#a8bcf2fe] relative">
                     <img src="../src/assets/images/about-img.jfif" className="w-full h-72 absolute top-2 left-2" alt="" />
                 </div>
-                <div className="w-2/5">
+                <div className="md:w-2/5">
                     <p className="bg-[#a8bcf2fe] inline p-1 rounded-lg">Our Strength</p>
                     <h5 className="text-lg font-bold w-72">Innovative Solutions that Drive Results</h5>
                     <p>Our designers and developers work together to create innovative and user-friendly solutions. We focus on seamless functionality and design to elevate your brand presence.</p>
@@ -80,7 +80,7 @@ const About = () => {
                         <p><CheckIcon className="text-indigo-800" /> Innovative Technology</p>
                         <p><CheckIcon className="text-indigo-800" /> Innovative Technology</p>
                     </div>
-                    <a href="mailto:brianchima22@gmail.com" className="bg-indigo-800 text-white px-10 py-1 mt-4 hover:px-11 hover:py-2 hover:rounded-lg">Email Us</a>
+                    <a href="mailto:brianchima22@gmail.com" className="bg-indigo-800 text-white px-10 py-1 mt-4 hover:px-11 hover:py-2 hover:rounded-lg duration-200">Email Us</a>
                 </div>
             </div>
         </section>

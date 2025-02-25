@@ -6,8 +6,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+html,
+body {
+    overflow-x: hidden;
+}
 body {
     background-color: #a8bcf2fe;
-    color: #feecd6;
+    color: #faf9f7;
     overflow-x: hidden;
+}
+.menu_icon:hover {
+    transform: rotate(45deg);
+    transition: all 500ms ease-in-out;
+}
+
+footer .site_map a:hover {
+    color: #fff;
+    scale: 1.05;
 }
