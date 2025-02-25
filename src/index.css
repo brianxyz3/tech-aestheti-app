@@ -6,6 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.text_shadow_white {
+    text-shadow: 0 0 3px #a8bcf2fe;
+}
 html,
 body {
     overflow-x: hidden;
@@ -15,11 +18,27 @@ body {
     color: #faf9f7;
     overflow-x: hidden;
 }
-.menu_icon:hover {
-    transform: rotate(45deg);
-    transition: all 500ms ease-in-out;
+.menu_icon_open {
+    transform: rotate(0deg);
+    transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
+.menu_icon_open:hover {
+    transform: rotate(5deg);
+}
+
+.menu_icon_closed {
+    transform: rotate(180deg);
+    transition: all 500ms cubic-bezier(0.6, -0.32, 0.735, 0.045);
+}
+
+.menu_icon_closed:hover {
+    transform: rotate(175deg);
+}
+
+.about_img {
+    box-shadow: -10px -10px 0 0 #a8bcf2fe;
+}
 footer .site_map a:hover {
     color: #fff;
     scale: 1.05;

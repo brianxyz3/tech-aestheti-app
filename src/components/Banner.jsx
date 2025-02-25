@@ -35,7 +35,7 @@ const Banner = () => {
                         <p className="w-52">Over <span className="text-2xl font-bold text-indigo-900 underline">80k</span> Softwares Developed</p>
                     </div>
                 </div>
-                <div className="relative">
+                <div className="relative z-0">
                     <img src="../src/assets/images/banner-img3.jfif" className="border-2 border-indigo-200 absolute top-6 right-6 size-52 md:size-72" alt="" />
                     <img src="../src/assets/images/banner-img1.jfif" className="border-2 border-indigo-200  size-52 md:size-72" alt="" />
                     <div className="flex items-stretch gap-1 absolute top-6 -right-14 md:top-8 md:-right-28">

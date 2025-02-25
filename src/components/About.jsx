@@ -64,9 +64,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-wrap justify-between pt-8 gap-y-10">
-                <div className="w-full md:w-5/12 h-72 bg-[#a8bcf2fe] relative">
-                    <img src="../src/assets/images/about-img.jfif" className="w-full h-72 absolute top-2 left-2" alt="" />
+            <div className="flex flex-wrap justify-between pt-8 gap-y-10 px-4">
+                <div className="w-full md:w-5/12 lg:w-2/5 h-72">
+                    <img src="../src/assets/images/about-img.jfif" className="w-full about_img h-72" alt="" />
                 </div>
                 <div className="md:w-2/5">
                     <p className="bg-[#a8bcf2fe] inline p-1 rounded-lg">Our Strength</p>
@@ -80,7 +80,7 @@ const About = () => {
                         <p><CheckIcon className="text-indigo-800" /> Innovative Technology</p>
                         <p><CheckIcon className="text-indigo-800" /> Innovative Technology</p>
                     </div>
-                    <a href="mailto:brianchima22@gmail.com" className="bg-indigo-800 text-white px-10 py-1 mt-4 hover:px-11 hover:py-2 hover:rounded-lg duration-200">Email Us</a>
+                    <a href="mailto:brianchima22@gmail.com" className="inline-block bg-indigo-800 text-white px-10 py-1 mt-8 md:mt-2 lg:mt-4 hover:px-11 hover:scale-110 hover:rounded-lg duration-300">Email Us</a>
                 </div>
             </div>
         </section>
