@@ -66,7 +66,7 @@ const About = () => {
             </div>
             <div className="flex flex-wrap justify-between pt-8 gap-y-10 px-4">
                 <div className="w-full md:w-5/12 lg:w-2/5 h-72">
-                    <img src="../src/assets/images/about-img.jpg" className="w-full about_img h-72" alt="a picture of our staff working together as a team" />
+                    <img src="../src/assets/about-img.jpg" className="w-full about_img h-72" alt="a picture of our staff working together as a team" />
                 </div>
                 <div className="md:w-2/5">
                     <p className="bg-[#a8bcf2fe] inline p-1 rounded-lg">Our Strength</p>

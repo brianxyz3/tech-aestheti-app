@@ -12,13 +12,13 @@ const Hero = () => {
                 </button>
             </div>
             <div className="relative text-indigo-800 -z-10 ml-7 mr-14 md:mx-0">
-                <img src="../src/assets/images/hero-img.jpg" className="size-[25rem] md:size-[30rem] border-2 border-indigo-100 border-b-0 rounded-t-full " alt="an african lady with bouncy curly full hair and a bright smile on her face holding a laptop infront of a yellow background" />
+                <img src="../src/assets/hero-img.jpg" className="size-[25rem] md:size-[30rem] border-2 border-indigo-100 border-b-0 rounded-t-full " alt="an african lady with bouncy curly full hair and a bright smile on her face holding a laptop infront of a yellow background" />
                 <div className="flex items-center bg-white p-1 absolute top-40 -right-9 md:top-32 md:-right-40">
-                    <img src="../src/assets/images/profile-img4.jpg" className="size-6 rounded-full" alt="a profile photo of a young african lady" />
-                    <img src="../src/assets/images/profile-img2.jpg" className="size-6 hidden md:flex rounded-full -ms-2" alt="a profile photo of an african male dressed in a coporate outfit" />
-                    <img src="../src/assets/images/profile-img3.jpg" className="size-6 rounded-full -ms-2" alt="a profile photo of a brunette white lady dressed in a coporate outfit" />
-                    <img src="../src/assets/images/profile-img1.jpg" className="size-6 hidden md:flex rounded-full -ms-2" alt="a profile photo of a white male dressed in a coporate outfit" />
-                    <img src="../src/assets/images/profile-img5.jpg" className="size-6 rounded-full -ms-2" alt="a profile photo of a white male dressed in a black coporate outfit" />
+                    <img src="../src/assets/profile-img4.jpg" className="size-6 rounded-full" alt="a profile photo of a young african lady" />
+                    <img src="../src/assets/profile-img2.jpg" className="size-6 hidden md:flex rounded-full -ms-2" alt="a profile photo of an african male dressed in a coporate outfit" />
+                    <img src="../src/assets/profile-img3.jpg" className="size-6 rounded-full -ms-2" alt="a profile photo of a brunette white lady dressed in a coporate outfit" />
+                    <img src="../src/assets/profile-img1.jpg" className="size-6 hidden md:flex rounded-full -ms-2" alt="a profile photo of a white male dressed in a coporate outfit" />
+                    <img src="../src/assets/profile-img5.jpg" className="size-6 rounded-full -ms-2" alt="a profile photo of a white male dressed in a black coporate outfit" />
                     <p className="ms-2 text-xs md:text-base">
                         8k+Satisfied Clients
                     </p>
