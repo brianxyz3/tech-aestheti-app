@@ -7,14 +7,14 @@
     box-sizing: border-box;
 }
 .text_shadow_white {
-    text-shadow: 0 0 3px #a8bcf2fe;
+    text-shadow: 0 0 3px #8ea9f3fe;
 }
 html,
 body {
     overflow-x: hidden;
 }
 body {
-    background-color: #a8bcf2fe;
+    background-color: #8ea9f3fe;
     color: #faf9f7;
     overflow-x: hidden;
 }

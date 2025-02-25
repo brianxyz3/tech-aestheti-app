@@ -7,8 +7,8 @@ export default {
         sans: ["Roboto", "sans-serif"],
       },
       backgroundImage: {
-        heroImg: "url('./src/assets/images/navbar-laptop-img.jfif')",
-        testimonialImg: "url('./src/assets/images/testimonial-img.jfif')",
+        heroImg: "url('./src/assets/images/navbar-laptop-img.jpg')",
+        testimonialImg: "url('./src/assets/images/testimonial-img.jpg')",
       },
     },
   },
