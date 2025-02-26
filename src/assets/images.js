@@ -1,0 +1,11 @@
+export {default as heroImg} from "./images/hero-img.jpg";
+export {default as profileImg1} from "./images/profile-img1.jpg";
+export {default as profileImg2} from "./images/profile-img2.jpg";
+export {default as profileImg3} from "./images/profile-img3.jpg";
+export {default as profileImg4} from "./images/profile-img4.jpg";
+export {default as profileImg5} from "./images/profile-img5.jpg";
+export {default as bannerImg1} from "./images/banner-img1.jpg";
+export {default as bannerImg2} from "./images/banner-img2.jpg";
+export {default as bannerLogo1} from "./images/banner-logo1.jpg";
+export {default as bannerLogo2} from "./images/banner-logo2.jpg";
+export {default as aboutImg} from "./images/about-img.jpg";

@@ -36,8 +36,14 @@ body {
     transform: rotate(175deg);
 }
 
+nav .nav_bg_img {
+    background-image: url("./assets/images/navbar-laptop-img.jpg");
+}
 .about_img {
     box-shadow: -10px -10px 0 0 #a8bcf2fe;
+}
+.testimonial_bg_img {
+    background-image: url("./assets/images/testimonial-img.jpg");
 }
 footer .site_map a:hover {
     color: #fff;

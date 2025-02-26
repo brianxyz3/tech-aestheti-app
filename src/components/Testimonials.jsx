@@ -5,7 +5,7 @@ const Testimonials = () => {
     return (
         <section className="bg-gradient-to-b from-white to-indigo-300 text-gray-900 px-6 pt-20 pb-16">
             <div className="bg-indigo-300 rounded-bl-3xl rounded-br-2xl rounded-t-lg px-1">
-                <div className="relative bottom-3 flex justify-center items-center bg-testimonialImg bg-cover bg-center h-72 rounded-bl-3xl rounded-br-2xl rounded-t-2xl">
+                <div className="relative bottom-3 flex justify-center items-center testimonial_bg_img bg-cover bg-center h-72 rounded-bl-3xl rounded-br-2xl rounded-t-2xl">
                     <div className="inline bg-indigo-200 text-center py-3 px-4 rounded-3xl">
                         <p className="text-indigo-800 font-bold text-xl w-32">Let's Work Together</p>
                         <button className="bg-indigo-800 text-white text-xs p-2 mt-1 rounded-md hover:font-bold hover:scale-110 hover:rounded-lg duration-200">REACH OUT</button>

@@ -29,7 +29,7 @@ const Navbar = () => {
                         </button>
                     </div>
                 </div>
-                <div className="bg-heroImg -z-10 bg-contain bg-center w-80 h-72 absolute top-0 -right-36 border-2 border-t-0 border-indigo-100 rounded-b-full"></div>
+                <div className="nav_bg_img -z-10 bg-cover w-80 h-72 absolute top-0 -right-36 border-2 border-t-0 border-indigo-100 rounded-b-full"></div>
                 <button className="bg-indigo-800 px-3 font-bold hover:bg-indigo-900 hover:rounded-xl relative duration-200">Reach Out</button>
             </div>
         </nav>
