@@ -4,6 +4,29 @@ import { MenuOpen, Dangerous as XIcon } from "@mui/icons-material";
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
 
+    const menuItems = [
+        {
+            title: "Home",
+            link: "/"
+        },
+        {
+            title: "About",
+            link: "/"
+        },
+        {
+            title: "Services",
+            link: "/"
+        },
+        {
+            title: "Portfolio",
+            link: "/"
+        },
+        {
+            title: "Contact",
+            link: "/"
+        },
+    ]
+
     return (
         <nav className="px-4 py-5 relative">
             <div className="flex justify-between items-center">
@@ -12,12 +35,10 @@ const Navbar = () => {
                 </div>
                 <div>
                     <div className={`${showMenu && "w-3/5 bg-indigo-800 md:bg-inherit md:w-auto text-center rounded-tl-full rounded-bl-full"} z-50 scale-x-100 font-mono fixed right-0 top-14 md:static text-black duration-500 delay-300`}>
-                        <ul className={`${showMenu ? "md:w-auto py-2 text-center rounded-tl-full rounded-bl-full scale-x-100" : "-right-1/2 scale-0 h-0"} md:static lg:gap-5 text-white md:text-black md:flex md:h-auto md:scale-100 duration-500`}>
-                            <li><a href="" className="inline-block hover:bg-indigo-500 hover:scale-105 rounded-xl px-3 py-1 duration-500 lg:px-5">Home</a></li>
-                            <li><a href="" className="inline-block hover:bg-indigo-500 hover:scale-105 rounded-xl px-3 py-1 duration-500 lg:px-5">About Us</a></li>
-                            <li><a href="" className="inline-block hover:bg-indigo-500 hover:scale-105 rounded-xl px-3 py-1 duration-500 lg:px-5">Services</a></li>
-                            <li><a href="" className="inline-block hover:bg-indigo-500 hover:scale-105 rounded-xl px-3 py-1 duration-500 lg:px-5">Portfolio</a></li>
-                            <li><a href="" className="inline-block hover:bg-indigo-500 hover:scale-105 rounded-xl px-3 py-1 duration-500 lg:px-5">Contact</a></li>
+                        <ul className={`${showMenu ? "md:w-auto py-2 text-center rounded-tl-full rounded-bl-full scale-x-100" : "-right-1/2 scale-0 h-0"} overflow-hidden md:overflow-visible md:static lg:gap-5 text-white md:text-black md:flex md:h-auto md:scale-100 duration-500`}>
+                            {menuItems.map((item, idx) => (
+                                <li key={idx}><a href={item.link} className="inline-block hover:bg-indigo-500 hover:scale-105 rounded-xl px-3 py-1 duration-500 lg:px-5">{item.title}</a></li>
+                            ))}                            
                         </ul>
                         <button
                             className={`${!showMenu && "border-black shadow-sm shadow-black"} border fixed top-0 right-0 bg-white py-2 px-3.5 rounded-tl-full rounded-bl-full md:hidden`}
